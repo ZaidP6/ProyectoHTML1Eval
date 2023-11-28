@@ -1,7 +1,12 @@
 @font-face {
     font-family: "Philosopher-Regular";
-    src: url(../Recursos/Fonts/Philosopher-Regular.ttf);
+    src: url(../Fonts/Philosopher-Regular.ttf);
 }
+@font-face {
+    font-family: "Pokemon";
+    src: url(../Fonts/pokemon/Pokemon\ Solid.ttf);
+}
+
 body{
     background-color: rgb(185, 185, 185);
     margin: 0.5%;
@@ -23,6 +28,13 @@ header img{
 h1{
     font-size: 60px;
 }
+h2{
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.6px;
+}
+hr{
+    margin: 5px;
+}
 ol{
     font-size: 40px;
 }
@@ -41,24 +53,33 @@ main{
     padding: 1.5%;
     border: 0.5%;
     margin: 5px;
-    background-image: url(../Img/mapa_kanto.jpeg);
+    background-image: url(../Img/mapa_kanto_opacidad47.png);
     background-color: rgba(247, 181, 116,0.2);
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     background-size: 100%;
+    font-family: "Philosopher-Regular", 'Times New Roman', Times, serif;
 }
-.div1{
+.divIndice{
     display: flex;
     flex-direction: column;
-    width: 28%; 
-    margin: auto;   
+    width: 32%; 
+    margin-left: 1.5%;   
+    margin-right: 1.5%;   
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.6px;
 }
-.div2{
+.divIntro{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    margin: auto;
+    width: 55.5%;
+    font-size: 25px;
+    margin-left: 2.5%;   
+    margin-right: 2.5%;
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 20px;
 }
 main img{
     display: block;
