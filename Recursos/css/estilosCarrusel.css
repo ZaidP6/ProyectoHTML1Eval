@@ -1,6 +1,7 @@
 header{
     text-align: center;
     border: 1px red solid;
+    background-color: lightgoldenrodyellow;
     
     }
     nav{
@@ -8,7 +9,9 @@ header{
         flex-direction: row;
         justify-content: space-around;
         border: 1px red solid;
+        background-color: lightgoldenrodyellow;
     }
+    
     .divgrande{
         display: flex;
         flex-direction: row;
@@ -16,26 +19,42 @@ header{
     
     }
     aside{
-        width: 30%;
+        width: 15%;
         border: 1px red solid;
+        background-color: lightgoldenrodyellow ;
     }
-    aside>h2{
+    
+    aside.infopoke h2{
         text-align: center;
 
     }
-    aside li{
-        margin-left: 20px;
-        size: 12pt;
+    aside.infopoke>ul{
+        list-style-type: none;    
+        padding-left: 20px; 
     }
 
-    aside p{
-        margin-left: 20px;
+    aside.infopoke>li{
+       size: 5pt;
+    }
+    aside.infopoke>p{
+        margin: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    aside.publicidad>h2{
+        text-align: center;
+    }
+    aside.publicidad img{
+        padding-left: 20px;
+        padding-bottom: 50px;
     }
 
     main{
-        width: 70%;
+        width: 85%;
         text-align: center;
         border: 1px red solid;
+        background-color: lightgoldenrodyellow;
     
     }
     main>div{
@@ -64,30 +83,30 @@ header{
 
     main>div>.flechader{
         width: 10%;
-        border: 1px black solid;
         padding: 2%;
         display: flex;
         align-items: center;
-        border: 1px rgb(0, 47, 255) solid;
+        
         
     }
     
     main>div>.flechader{
-        background-color: lightgreen;
+        background-color: lightgoldenrodyellow;
     }
-    main>div>.flechader>img{
+    main>div>.flechader>a>img{
         width: 80%;
     }
 
     main>div>.flechaizq{
-        background-color: lightgreen;
+        background-color: lightgoldenrodyellow;
     }
-    main>div>.flechaizq>img{
+    main>div>.flechaizq>a>img{
         width: 80%;
     }
 
+    
 
-    footer{
+    body>footer{
         background-color: gray;
         width: auto;
         display: flex;
@@ -96,4 +115,9 @@ header{
         align-self: flex-end;   
         position: absolute;
         bottom: 0px;
+    }
+
+    footer>p>img{
+        background-size: cover;
+        width: 100%;
     }
