@@ -5,14 +5,10 @@
 }
 
 body{
-    background-color: rgb(253, 251, 104);
-    margin: 0.5%;
+    background-color: rgb(230, 230, 230);
     background-repeat: no-repeat;
-    background: url(../Imagenes/fondo.jpg);  
     background-size: cover;    
     width: 100%;
-    display: flex;
-    flex-direction: column;
     font-family: Pokemon, Arial, Helvetica, sans-serif;
 }
 header{
@@ -169,18 +165,19 @@ aside.infopoke{
     overflow: hidden;
     width: 33%;
     display: inline-flex;
-    flex-wrap: wrap;
-    text-align: center;
     background-color: hsla(0, 0%, 68%, 0.8);
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
     align-items: center;
-    align-self: 10px flex-end; 
-    height: 80px;
+    height: 90px;
     font-family: Pokemon, Arial, Helvetica, sans-serif;
     letter-spacing: 1.2px;
     font-size: 15px;
+}
+footer>div>div>p{
+    text-align: center;
+    width: 100%;
 }
 .footer2{
     display: flex;
@@ -195,6 +192,10 @@ aside.infopoke{
     font-family: Pokemon, Arial, Helvetica, sans-serif;
     letter-spacing: 1.2px;
     font-size: 20px;
+}
+footer>div>p{
+    text-align: center;
+    width: 100%;
 }
 nav>ul{
     display: flex;
@@ -230,12 +231,13 @@ article>img{
     align-items: flex-start;
     padding: 0;
     margin: 0;
-    height: 80%;
+    height: 70%;
 }
 article>p{
     font-size: 25px;
     letter-spacing: 2px;
-    margin-top: 0 auto;
-    height: 20%;
+    margin:5px;
+    height: 10%;
+    align-items: end;
 
 }

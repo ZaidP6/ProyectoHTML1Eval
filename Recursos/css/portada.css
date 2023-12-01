@@ -35,21 +35,27 @@ main{
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
 }
 .footer1{
     overflow: hidden;
-    width: 30%;
+    width: 33%;
     display: inline-flex;
-    flex-wrap: wrap;
-    text-align: center;
     background-color: hsla(0, 0%, 68%, 0.8);
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
     align-items: center;
-    align-self: 10px flex-end; 
-    height: 56px;
+    height: 90px;
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 15px;
+}
+footer>div>div>p{
+    text-align: center;
+    width: 100%;
 }
 .footer2{
     display: flex;
@@ -61,4 +67,11 @@ main{
     padding: 5px;
     background-color: rgb(173, 173, 173,0.8);
     align-items: center;
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+footer>div>p{
+    text-align: center;
+    width: 100%;
 }
