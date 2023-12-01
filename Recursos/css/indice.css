@@ -81,6 +81,16 @@ main{
     letter-spacing: 1.2px;
     font-size: 20px;
 }
+.divpokedex{
+    width: 100%;
+    font-size: 25px;
+    margin-left: 2.5%;   
+    margin-right: 2.5%;
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    padding: auto;
+}
 main img{
     display: block;
     width: 35%;
