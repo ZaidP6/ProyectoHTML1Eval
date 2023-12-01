@@ -111,6 +111,30 @@ aside div img{
     border-radius: 20px;
     margin: auto;
 }
+aside.infopoke>p{
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+main>div>.flechaizq{
+    width: 10%;
+    border: 1px black solid;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    border: 1px rgb(0, 47, 255) solid;
+    
+}
+
+main>div>.flechader{
+    width: 10%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    
+    
+}
 .footer0{
     overflow: hidden;
     display: flex;
@@ -145,4 +169,11 @@ aside div img{
     background-color: rgb(173, 173, 173,0.8);
     align-items: center;
     font-family: 'Philosopher-Regular', Arial, Helvetica, sans-serif;
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
 }
