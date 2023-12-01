@@ -1,16 +1,7 @@
-@font-face {
-    font-family: "Streetbomber";
-    src: url(../Recursos/Fonts/Streetbomber.ttf);
-}
 
 @font-face {
-    font-family: "Anger Styles";
-    src: url(../Recursos/Fonts/AngerStyles.ttf);
-}
-
-@font-face {
-    font-family: "Philosopher-Regular";
-    src: url(../Recursos/Fonts/Philosopher-Regular.ttf);
+    font-family: "Pokemon";
+    src: url(../Fonts/pokemon/Pokemon\ Solid.ttf);
 }
 p{
     text-align: justify;
@@ -18,11 +9,11 @@ p{
     margin: 0 auto;
 }
 body{
-    background-color: rgb(185, 185, 185,0.8);
-    margin: 0.5%;
+    background-color: rgb(230, 230, 230);
     background-repeat: no-repeat;
-    background: url(../Imagenes/fondo.jpg);  
-    background-size: cover;  
+    background-size: cover;    
+    width: 100%;
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
 }
 main{
     margin: 3px;

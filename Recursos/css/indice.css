@@ -55,6 +55,9 @@ main{
     border-radius: 5px;
 
 }
+main>div>ul>li{
+    font-size: 30px;
+}
 main>.carrousel{
     display: flex;
     flex-direction: row;
