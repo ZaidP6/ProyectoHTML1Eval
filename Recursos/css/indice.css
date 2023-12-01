@@ -1,23 +1,19 @@
-@font-face {
-    font-family: "Philosopher-Regular";
-    src: url(../Fonts/Philosopher-Regular.ttf);
-}
+
 @font-face {
     font-family: "Pokemon";
     src: url(../Fonts/pokemon/Pokemon\ Solid.ttf);
 }
 
 body{
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(253, 251, 104);
     margin: 0.5%;
     background-repeat: no-repeat;
     background: url(../Imagenes/fondo.jpg);  
     background-size: cover;    
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: 'Philosopher-Regular', Arial, Helvetica, sans-serif;
+    font-family: Pokemon, Arial, Helvetica, sans-serif;
 }
 header{
     width: 100%;   
@@ -40,13 +36,13 @@ ol{
 }
 p{
     text-align: justify;
-    word-spacing: 2pt;
     margin: 0 auto;
     
 }
 .divMainAside{
     display: flex;
-    height: 100%;
+    flex-direction: row;
+    border-radius: 5px;
 }
 main{
     width: 80%;
@@ -57,16 +53,31 @@ main{
     background-color: rgba(247, 181, 116,0.2);
     border-radius: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction:raw;
     background-size: 100%;
-    font-family: "Philosopher-Regular", 'Times New Roman', Times, serif;
+    font-family: Pokemon, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+
 }
 main>.carrousel{
     display: flex;
-    background-image: url(img/ruta.jpg);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-image: url(../Img/ruta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    border-radius: 5px;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 75%;
+    align-items:center;
+}
+main>h2 #titulocarrousel{
+    text-align: center;
 }
 .divIndice{
     display: flex;
@@ -87,6 +98,7 @@ main>.carrousel{
     font-family: Pokemon, Arial, Helvetica, sans-serif;
     letter-spacing: 1.2px;
     font-size: 20px;
+    border-radius: 5px;
 }
 .divpokedex{
     width: 100%;
@@ -97,13 +109,9 @@ main>.carrousel{
     letter-spacing: 1.2px;
     font-size: 20px;
     padding: auto;
+    border-radius: 5px;
 }
-main img{
-    display: block;
-    width: 35%;
-    border-radius: 20px;
-}
-aside{
+aside.publicidad{
     display: flex;
     flex-direction: column;
     width: 15%;
@@ -114,33 +122,33 @@ aside{
     border-radius: 5px;
     justify-content: space-evenly;
 }
-aside div img{
-    border-radius: 20px;
-    margin: auto;
+
+aside.infopoke{
+    width: 30%;
+    padding: 1%;
+    font-size: 15px;
+    background-color: rgba(206, 199, 199, 0.459);
+    font-family: pokemon, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    margin: 1%;
 }
-aside.infopoke>p{
-    margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
+.flechaizq{
+    width: 15%;
+    padding: 0.5%;
+    align-items: center;   
+    margin: 3%; 
 }
-main>div>.flechaizq{
-    width: 10%;
-    border: 1px black solid;
-    padding: 2%;
-    display: flex;
-    align-items: center;
-    border: 1px rgb(0, 47, 255) solid;
-    
+.pokemon{
+    width: 100%;
+    padding: 3%;
+    margin: 5%;
 }
 
-main>div>.flechader{
-    width: 10%;
-    padding: 2%;
-    display: flex;
+.flechader{
+    width: 15%;
+    padding: 0.5%;
     align-items: center;
-    
-    
+    margin: 3%;
 }
 .footer0{
     overflow: hidden;
@@ -182,5 +190,19 @@ nav>ul{
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-
+}
+nav{
+    background-color: rgba(255, 252, 68, 0.877);
+    border-radius: 5px;
+    font-size: 25px;
+}
+.galeria{
+    width: 280px;
+    height: 280px;
+    border: 8px solid rgb(219, 11, 11);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5%;
+    padding: 0.5%;
 }
