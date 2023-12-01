@@ -206,3 +206,8 @@ nav{
     margin: 0.5%;
     padding: 0.5%;
 }
+.galeriapokemon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
