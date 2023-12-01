@@ -53,7 +53,7 @@ main{
     background-color: rgba(247, 181, 116,0.2);
     border-radius: 5px;
     display: flex;
-    flex-direction:raw;
+    flex-direction:column;
     background-size: 100%;
     font-family: Pokemon, 'Times New Roman', Times, serif;
     border-radius: 5px;
@@ -76,9 +76,7 @@ main>.carrousel{
     width: 75%;
     align-items:center;
 }
-main>h2 #titulocarrousel{
-    text-align: center;
-}
+
 .divIndice{
     display: flex;
     flex-direction: column;
