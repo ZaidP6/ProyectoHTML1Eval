@@ -120,6 +120,11 @@ aside.publicidad{
     border-radius: 5px;
     justify-content: space-evenly;
 }
+aside>div>a>img{
+    border-radius: 5px;
+    width: 100%;
+}
+    
 
 aside.infopoke{
     width: 30%;
