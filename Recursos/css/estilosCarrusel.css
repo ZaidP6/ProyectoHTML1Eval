@@ -65,7 +65,7 @@ header{
     
     main>div>.imgfondo{
         
-        background-image: url(../Img/ruta.jpg);
+        background-image: url(img/ruta.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -106,18 +106,22 @@ header{
 
     
 
-    body>footer{
-        background-color: gray;
-        width: auto;
+    div>footer{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-self: flex-end;   
-        position: absolute;
-        bottom: 0px;
+        border: 2px solid red;
+        background-color: lightgoldenrodyellow;
+        height: 50%;
+        
+           
     }
 
-    footer>p>img{
-        background-size: cover;
-        width: 100%;
+    footer>p{
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: aquamarine;
+        margin: 20px;
+        width: 10%;
+
     }
+
+   
