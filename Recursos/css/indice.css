@@ -61,6 +61,13 @@ main{
     background-size: 100%;
     font-family: "Philosopher-Regular", 'Times New Roman', Times, serif;
 }
+main>.carrousel{
+    display: flex;
+    background-image: url(img/ruta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
 .divIndice{
     display: flex;
     flex-direction: column;
